@@ -1,0 +1,286 @@
+html {
+    min-height: 100%;
+
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  
+  body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    
+  }
+  header {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .listado-secciones {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .listado-secciones li a{
+    color: #000000;
+        }
+        .listado-secciones li a:hover{
+          opacity: 0.45;
+              }
+  @mixin flecha {
+    position: relative;
+    padding: 18px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.17em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .flecha-logo {
+    @include flecha;
+    animation: animacion-flecha-dos 1s;
+    animation-fill-mode: forwards;
+    max-width: 1080px;
+
+  }
+  .flecha-uno {
+    rotate: 9deg;
+    animation: animacion-flecha-uno 2.5s;
+    animation-fill-mode: forwards;
+    padding: 0;
+    width: 100%;
+    max-width: 180px;
+    text-align: center;
+    margin-bottom: -15px;
+    left: 100%
+  }
+  .flecha-dos {
+    @include flecha;
+    animation: animacion-flecha-dos 1s;
+    animation-fill-mode: forwards;
+    left: 180%;
+
+  }
+  .flecha-tres {
+    @include flecha;
+    animation: animacion-flecha-dos 0.75s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.27s;
+    left: 180%;
+  }
+  .flecha-cuatro {
+    @include flecha;
+    animation: animacion-flecha-dos 0.50s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.54s;
+    left: 180%;
+  }
+  .flecha-cinco{
+    @include flecha;
+    animation: animacion-flecha-dos 0.50s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.72s;
+    left: 180%;
+  }
+  .flecha-seis {
+    @include flecha;
+    animation: animacion-flecha-dos 0.50s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.81s;
+    left: 180%;
+  }
+  .flecha-siete{
+    @include flecha;
+    animation: animacion-flecha-dos 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    left: 0%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000000;
+    max-width: 630px;
+
+  }
+  .flecha-siete a {
+    display: flex;
+    color: #000000;
+  }
+
+  .flecha-siete .arco{
+   width: 90px;
+   }
+   .flecha-siete img{
+    margin-right: 1em;
+    }
+    .flecha-siete .arco1{
+      width: 90px;
+      rotate: 180deg;
+      margin-right: 0;
+      }
+
+  @keyframes animacion-flecha-uno {
+    0%   {rotate: 9deg;}
+    25% {rotate: 45deg;}
+    50%   {rotate: -18deg;}
+    75% {rotate: 18deg;}
+    100% {rotate: 0deg;}
+  }
+  @keyframes animacion-flecha-dos {
+    0%   {left: 270%; top:0px;}
+    100% {left: 1%;top:0px;}
+  }
+
+  @media (max-width: 450px) {
+    header {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    header a {
+      width: 96%;
+      padding-top: 0.9em;
+      margin: 0 auto;
+      padding: 0 !important;
+    }
+
+    .listado-secciones {
+      position: relative;
+      display: flex;
+      margin: 0 auto;
+      padding: 0;
+      justify-content: center;
+    }
+    .listado-secciones li{
+width: 36%;
+margin: 2em 1em;
+    }
+    .listado-secciones li a img{
+      padding: 0;
+          }
+          
+
+    @mixin flecha {
+      position: relative;
+      padding: 5px;
+      display: flex;
+      font-size: 1em;
+    }
+    .flecha-logo {
+      animation: animacion-flecha-dos 1.5s;
+      animation-fill-mode: forwards;
+      width: 96%;
+      padding: 0;
+      margin: 0 auto 0.45em auto;
+  
+    }
+    .flecha-uno {
+      rotate: 9deg;
+      animation: animacion-flecha-uno 3s;
+      animation-fill-mode: forwards;
+      padding: 5px;
+      width: 100%;
+    }
+    .flecha-dos {
+      @include flecha;
+      animation: animacion-flecha-dos 1.5s;
+      animation-fill-mode: forwards;
+      left: 100%;
+    }
+    .flecha-tres {
+      @include flecha;
+      animation: animacion-flecha-dos 1.5s;
+      animation-fill-mode: forwards;
+      animation-delay: 0.25s;
+      left: 100%;
+    }
+    .flecha-cuatro {
+      @include flecha;
+      animation: animacion-flecha-dos 1.5s;
+      animation-fill-mode: forwards;
+      animation-delay: 0.5s;
+      left: 100%;
+    }
+    .flecha-cinco{
+      @include flecha;
+      animation: animacion-flecha-dos 1.5s;
+      animation-fill-mode: forwards;
+      animation-delay: 0.75s;
+      left: 100%;
+    }
+    .flecha-seis {
+      @include flecha;
+      animation: animacion-flecha-dos 1.5s;
+      animation-fill-mode: forwards;
+      animation-delay: 1s;
+      left: 100%;
+    }
+    .flecha-siete{
+      @include flecha;
+      animation: animacion-flecha-dos 3s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
+      animation-delay: 1s;
+      left: 100%;
+      align-items: center;
+      width: 90%;
+      flex-direction: row;
+      justify-content: space-between;
+      color: #000000;
+      font-size: 1em;
+      margin: auto;
+      margin-top: 1em;
+  
+    }
+    .flecha-siete a {
+      display: flex;
+      color: #000000;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    .flecha-siete a img{
+      max-width: 45px;
+    }
+  
+    .flecha-siete .arco{
+     width: 45%;
+     margin-right: 1em;
+     }
+     
+     .flecha-siete img{
+      margin-right: 0em;
+      }
+      .flecha-siete .arco1{
+        width: 45%;
+        rotate: 180deg;
+        margin-right: 0;
+        margin-left: 1em;
+        }
+  
+    @keyframes animacion-flecha-uno {
+      0%   {rotate: 9deg;}
+    25% {rotate: 18deg;}
+    50%   {rotate: -9deg;}
+    75% {rotate: 9deg;}
+    100% {rotate: 0deg;}
+    }
+    @keyframes animacion-flecha-dos {
+      0%   {left: 150%; top:0px;}
+      100% {left: 0%;top:0px;}
+    }
+    .parrafo-uno {
+      position: relative;
+    }
+  
+  }
+  

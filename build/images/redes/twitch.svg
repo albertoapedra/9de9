@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="twitch.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="49.625"
+     inkscape:cx="8"
+     inkscape:cy="7.9899244"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <path
+     d="M3.85714 0L1 2.85714V13.1429H4.42857V16L7.28571 13.1429H9.57143L14.7143 8V0H3.85714ZM13.5714 7.42857L11.2857 9.71429H9L7 11.7143V9.71429H4.42857V1.14286H13.5714V7.42857Z"
+     fill="black"
+     id="path1"
+     style="fill:#ffffff" />
+  <path
+     d="M11.8572 3.14286H10.7143V6.57143H11.8572V3.14286Z"
+     fill="black"
+     id="path2"
+     style="fill:#ffffff" />
+  <path
+     d="M8.71425 3.14286H7.57139V6.57143H8.71425V3.14286Z"
+     fill="black"
+     id="path3"
+     style="fill:#ffffff" />
+</svg>

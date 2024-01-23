@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/9de9/static/css/main.bb6e0041.css",
+    "main.js": "/9de9/static/js/main.956e4487.js",
+    "static/js/787.1e2e327f.chunk.js": "/9de9/static/js/787.1e2e327f.chunk.js",
+    "static/media/notosans-semicondensedmedium-webfont.woff": "/9de9/static/media/notosans-semicondensedmedium-webfont.f3bed089bbaae1d5a7db.woff",
+    "static/media/notosans-extracondensedbold-webfont.woff": "/9de9/static/media/notosans-extracondensedbold-webfont.ddd59169eea90f71035c.woff",
+    "static/media/notosans-extracondensedblack-webfont.woff": "/9de9/static/media/notosans-extracondensedblack-webfont.8d277b47849e135a7dff.woff",
+    "static/media/notosans-semicondensedmedium-webfont.woff2": "/9de9/static/media/notosans-semicondensedmedium-webfont.cdf6362be8b1cb21433f.woff2",
+    "static/media/notosans-extracondensedbold-webfont.woff2": "/9de9/static/media/notosans-extracondensedbold-webfont.2198b610a1f4ca64df79.woff2",
+    "static/media/notosans-extracondensedblack-webfont.woff2": "/9de9/static/media/notosans-extracondensedblack-webfont.9039819f38341e3c8306.woff2",
+    "static/media/fondo-menu-seccion-02.svg": "/9de9/static/media/fondo-menu-seccion-02.601745ca380fe6a2ad95.svg",
+    "static/media/fondo-menu-seccion-04.svg": "/9de9/static/media/fondo-menu-seccion-04.bf7399806fa2d90813b5.svg",
+    "static/media/fondo-menu-seccion-05.svg": "/9de9/static/media/fondo-menu-seccion-05.b2889db064a9660b7986.svg",
+    "static/media/fondo-menu-seccion-06.svg": "/9de9/static/media/fondo-menu-seccion-06.6eaaf254b5da7c67887d.svg",
+    "static/media/fondo-menu-seccion-07.svg": "/9de9/static/media/fondo-menu-seccion-07.960e13d417bc32c9a3cb.svg",
+    "static/media/fondo-menu-seccion-08.svg": "/9de9/static/media/fondo-menu-seccion-08.faa45fe7a4af0045683c.svg",
+    "static/media/fondo-menu-seccion-09.svg": "/9de9/static/media/fondo-menu-seccion-09.c2465ce5d92d512b1584.svg",
+    "static/media/fondo-menu-seccion-01.svg": "/9de9/static/media/fondo-menu-seccion-01.b2d1cc172d40945aea63.svg",
+    "static/media/fondo-menu-seccion-03.svg": "/9de9/static/media/fondo-menu-seccion-03.55d62e540dc159520435.svg",
+    "index.html": "/9de9/index.html",
+    "main.bb6e0041.css.map": "/9de9/static/css/main.bb6e0041.css.map",
+    "main.956e4487.js.map": "/9de9/static/js/main.956e4487.js.map",
+    "787.1e2e327f.chunk.js.map": "/9de9/static/js/787.1e2e327f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb6e0041.css",
+    "static/js/main.956e4487.js"
+  ]
+}
