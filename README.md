@@ -1,4 +1,4 @@
 # 9de9
-Aplicación de preguntas y respuestas entre usuarios
+9 temas, 9 preguntas por tema, 9 respuestas por pregunta.
 
 Ver la [demo](https://albertoapedra.github.io/9de9/)
